@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(0, 6, 13, 0.8),rgba(14, 0, 16, 0.5)),url(Lingobg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+    height: fit-content;
+    position: relative;
+    transform: translateY(90px);
+    transform: translateX(-650px);
+}
+h1{
+    position:absolute;
+    width:100%;
+    top: 10%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+.navbar{
+    width: 5%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(600px,-80px)
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+.Back-button-spanish{
+    position: absolute;
+    width:100%;
+    top: 85%;
+    transform: translateX(-200);
+    text-align:center;
+    color:#fff;
+}
+.Spanish-basic{
+    position:absolute;
+    width:100%;
+    top: 33%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+.Spanish-average{
+    position:absolute;
+    width:100%;
+    top: 48%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+.Spanish-difficult{
+    position:absolute;
+    width:100%;
+    top: 63%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+button{
+    font-size: 30px;
+    width:200px;
+    padding: 15px 0;
+    text-align:center;
+    margin:20 px 10 px;
+    border-radius:25px;
+    font-weight:bold;
+    border: 3px solid #009688;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.SpanishSelection h1{
+    color: rgb(248, 243, 243);
+    margin-top: 6%;
+    text-align: center;
+ 
+}
+
+
+
+
+
+  

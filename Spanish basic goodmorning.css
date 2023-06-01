@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+@font-face {
+    font-family: Hola;
+    src: url("SpanishStencil.ttf");
+  }
+  @font-face {
+    font-family: H1;
+    src: url("SpanishStencil.ttf");
+  }
+  @font-face {
+    font-family: Hola Dennis;
+    src: url("SpanishStencil.ttf");
+  }
+body{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(0, 6, 13, 0.8),rgba(14, 0, 16, 0.5)),url(Lingobg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+.Back-button-spanish{
+    position: absolute;
+    width:30%;
+    top: -25%;
+    text-align:center;
+    color:#fff
+
+}
+h1{
+    color: #fff;
+    margin-left: 5PX;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: rgb(233, 242, 252);
+    background: rgba(66, 33, 136, 0.55);
+}
+.logo{
+    width: 6%;
+    transform: translateX(-800%);
+    top: -4px;
+    z-index: 1; position: absolute;
+}
+.Hola{
+    color: #fff;
+    transform: translateY(230%);
+    font-size: 200%;
+    font-family: Hola;
+}
+.Pronunciation{
+    color: #fff;
+    transform: translateY(230%);
+    font-size: 200%;
+}
+h2{
+    color: #fff;
+    transform: translateY(265%);
+    font-size: 2rem;
+}
+.HIW{
+    color:#fff;
+    transform: translateY(390%);
+    font-size: 130%;
+}
+h3{
+    color: #fff;
+    transform: translateY(295%);
+    font-size: 2rem;
+}
+.SS{
+    color: #fff;
+    transform: translateY(400%);
+    font-size: 167%;
+    font-family: Hola Dennis;
+}
+.Nextbtn button{
+    left: 240px;
+    top: 340px;
+    font-size: 30px;
+    width:200px;
+    text-align:center;
+    margin:20 px 10 px;
+    border-radius:25px;
+    font-weight:bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.Nextbtn span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.Nextbtn button:hover span{
+    width: 100%;
+}
+.Nextbtn button:hover{
+    border: none;
+}
+button{
+    transform: translateX(-60%);
+    top: 275px;
+    font-size: 30px;
+    width:200px;
+    padding: 15px 0;
+    text-align:center;
+    margin:20 px 10 px;
+    border-radius:25px;
+    font-weight:bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
