@@ -44,7 +44,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transform: translate(670px,-480px)
+    transform: translate(670px,-450px)
 }
 .navbar ul li a{
     text-decoration: none;
